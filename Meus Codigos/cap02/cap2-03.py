@@ -1,5 +1,5 @@
 ## Indexando uma string 
-s = 'ludy hoje gostaria de agradecer a você por ser essa pessoa não maravilhosa que você é.'
+s = 'ludy hoje gostaria de agradecer a você por ser essa pessoa tão maravilhosa que você é.'
 
 print(s[0]+" de linda")
 print(s[1]+" de unica")
@@ -46,7 +46,7 @@ print(s.islower())
 print(s.isspace())
 
 #verifica se termina com determinada letra
-print(s.endswith('a'))
+print(s.endswith('.'))
 
 ## Comparação de string 
 print("ludy" == "luana")
