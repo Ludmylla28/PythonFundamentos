@@ -4,7 +4,8 @@
 
 def potencia(num):
     result = num**2
-    return result;
+
+return result;
 
 potencia(5)
 
@@ -12,7 +13,7 @@ print("-" * 30)
 # uma função com 2 linhas de codigo
 
 def potencia(num):
-    return num**2;
+return num**2;
 
 potencia(5)
 
