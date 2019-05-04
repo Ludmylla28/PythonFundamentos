@@ -1,4 +1,8 @@
 # Filter 
+# tambem recebe uma função e uma sequencia 
+# a função passada para a filter deve retornar true ou false
+# a filter retornara apenas a lista com os verdadeiros 
+
 
 #criando função 
 def verificarPar(num):
