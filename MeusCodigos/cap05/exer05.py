@@ -59,5 +59,9 @@ class MP3Player(Smartphone):
     def __init__(self,capacidade, tamanho = '15 cm', interface = 'Led'):
         self.capacidade = capacidade
         Smartphone.__init__(self,tamanho,interface)
+        
+    def print_MP3Player(self):
+        print("Valores para o objeto criado: %s %s %s" %(self.tamanho, self.interface, self.capacidade))
 
-    def printMP3Player(self):
+device1 = MP3Player('64 GB')
+device1.print_MP3Player()
