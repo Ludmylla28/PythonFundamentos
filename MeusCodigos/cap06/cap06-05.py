@@ -7,10 +7,10 @@ import random as rdm
 import time 
 import datetime as dtm
 import matplotlib.pyplot as plt
-%matplotlib notebook
+
 
 # Variaveis Globais 
-nomeDB = 'C:/Users/Ludy/Documents/PythonFundamentos/MeusCodigos/cap06/dsaUpdat.db'
+nomeDB = '/home/ludmylla/Documents/PythonFundamentos/MeusCodigos/cap06/dsaUpdat.db'
 nomeTab = 'CasaNova'
 produtos = ['fogão', 'geladeira', 'mesa', 'sofa', 'cadeira']
 
