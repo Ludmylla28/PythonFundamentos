@@ -40,7 +40,7 @@ class Pessoa():
     def __str__(self):
         return "Candidato(a) " + self.nome + " mora na cidade " + self.cidade
 
-candidato1 = Pessoa("Carolina Franco de Oliveira", "Osasco", 950855005, "carolbatera@gmail.com")
+candidato1 = Pessoa("Deusa da minha vida", "blabla", 9999999999, "xxx@gmail.com")
 str(candidato1)
 
 # Exercício 3 - Crie a classe Smartphone com 2 
