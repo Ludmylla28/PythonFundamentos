@@ -22,7 +22,7 @@ class Estudantes:
         self.idade= idade
         self.nota= nota
 
-estudante1 = Estudantes("Carolina Franco de Oliveira", 32, 8.7)
+estudante1 = Estudantes("Bonitinha", 52, 8.7)
 
 print("Bom dia %s, sua nota é %d" %(estudante1.nome,estudante1.nota))
 estudante1.idade
